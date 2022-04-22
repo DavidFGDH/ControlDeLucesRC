@@ -25,7 +25,7 @@ function App() {
             {!loading && <>
             <Grid container spacing={3}>
                 <Grid item xs={12}>
-                    <Typography variant="h5" align={"center"}>
+                    <Typography style={{paddingTop:22}} variant="h4" align={"center"}>
                         Control de luces
                     </Typography>
                 </Grid>
@@ -34,9 +34,6 @@ function App() {
                                 <Card id={foco.id}  Nombre={foco.Nombre} Estado={foco.Estado}/>
                             </Grid>
                         ))}
-
-
-
             </Grid>
             </>}
         </Container>

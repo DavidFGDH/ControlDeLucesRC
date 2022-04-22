@@ -53,10 +53,10 @@ export default function BasicCard(props) {
         <Card>
             <CardContent>
 
-            <Grid container spacing={2} >
-                <Grid item xs={1} >
+            <Grid container spacing={3} >
+                <Grid item xs={1} style={{paddingLeft:15}} >
                     {estado && <>
-                        <FlashlightOnIcon color={'success'} fontSize={'large'}/>
+                        <FlashlightOnIcon  color={'success'} fontSize={'large'}/>
                     </>}
                     {!estado && <FlashlightOffIcon color={'warning'} fontSize={'large'}/>}
                 </Grid>
